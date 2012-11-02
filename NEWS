@@ -1,0 +1,12 @@
+    	 CHANGES IN Dmisc VERSION 0.1
+
+NEW FEATURES
+
+  - first version of Dmisc: it provides functions.  For
+  the latest development version see the page for the package on github:
+  https://github.com/Dasonk/Dmisc
+
+MISC
+
+  - in this NEWS file, #n means the issue number on GitHub, e.g. #142 is
+  https://github.com/Dasonk/Dmisc/issues/142

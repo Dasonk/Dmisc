@@ -1,0 +1,15 @@
+Package: Dmisc
+Type: Package
+Title: Miscellaneous functions provided by Dason
+Version: 0.1
+Date: 2012-10-01
+Author@R: c(person("Dason", "Kurkiewicz",
+    role = c("aut", "ctb", "cre"),
+    email = "dasonk@iastate.edu"))
+Author: Dason Kurkiewicz
+Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
+Depends:
+    R (>= 2.15.0),
+Description: Blarg
+License: MIT
+URL: https://github.com/Dasonk/Dmisc
