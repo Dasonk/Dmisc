@@ -13,3 +13,7 @@ Depends:
 Description: Blarg
 License: MIT
 URL: https://github.com/Dasonk/Dmisc
+Collate:
+    'holtwinters.R'
+    'linfinder.R'
+    'lsos.R'

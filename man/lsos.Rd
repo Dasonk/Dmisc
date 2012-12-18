@@ -1,0 +1,41 @@
+\name{lsos}
+\alias{lsos}
+\title{Improved list of objects}
+\usage{
+  lsos(pos = 1, pattern, order.by = "Size",
+    decreasing = TRUE, head = TRUE, n = 10)
+}
+\arguments{
+  \item{pos}{numeric. Position in the stack}
+
+  \item{pattern}{Regex to filter the objects by}
+
+  \item{order.by}{character. Either 'Type', 'Size',
+  'PrettySize', 'Rows', or 'Columns'. This will dictate how
+  the output is ordered}
+
+  \item{decreasing}{logical. Should the output be displayed
+  in decreasing order}
+
+  \item{head}{logical. Use head on the output?}
+
+  \item{n}{numeric. Number of objects to display is head is
+  TRUE}
+}
+\description{
+  Improved list of objects.  Sorts by size by default.
+  This was shamelessly stolen from
+  \url{http://stackoverflow.com/questions/1358003/tricks-to-manage-the-available-memory-in-an-r-session}
+}
+\examples{
+lsos()
+\dontrun{
+a <- rnorm(100000)
+b <- matrix(1, 1000, 100)
+lsos()
+}
+}
+\author{
+  Dirk Eddelbuettel, Tony Breyal
+}
+
