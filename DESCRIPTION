@@ -18,3 +18,4 @@ Collate:
     'linfinder.R'
     'lsos.R'
     'goldenRatioColors.R'
+    'unfactor.R'
