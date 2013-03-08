@@ -19,3 +19,4 @@ Collate:
     'lsos.R'
     'goldenRatioColors.R'
     'unfactor.R'
+    'shadeplot.R'
