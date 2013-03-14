@@ -1,3 +1,4 @@
 export(goldenRatioColors)
 export(linfinder)
+export(shadeplot)
 export(unfactor)

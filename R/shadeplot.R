@@ -19,6 +19,8 @@
 #'   function.  For instance if you wanted to plot a normal density
 #'   with a mean of 5 and sd of 2 you would also pass in mean=5, sd=2
 #'   in the parameter list (assuming you used dnorm as your 'func').
+#'   
+#' @export
 shadeplot <- function(func = dnorm, 
                       xlim = c(-3,3), 
                       ylim = NULL, 
