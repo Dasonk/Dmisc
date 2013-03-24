@@ -20,3 +20,4 @@ Collate:
     'goldenRatioColors.R'
     'unfactor.R'
     'shadeplot.R'
+    'traintest.R'
