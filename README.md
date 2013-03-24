@@ -1,7 +1,15 @@
 Dmisc
 ==========
 
-The `Dmisc` package provides functions that don't fit elsewhere that I want.
+The `Dmisc` package provides functions that don't fit elsewhere that I want.  A quick overview of what you will find in the package so far:
+
+* goldenratiocolors -      Choose n colors using the golden ratio
+* holtwinters -             Holt winters smoothing no seasonality
+* linfinder -               Finds linear combinations
+* lsos -                   Improved list of objects
+* shadeplot -              Shade a section of a pdf
+* traintest -              Create training/testing sets
+* unfactor -               Change factors to characters
     
 ## Installation
 
