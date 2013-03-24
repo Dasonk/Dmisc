@@ -1,4 +1,4 @@
-export(goldenRatioColors)
+export(goldenratiocolors)
 export(linfinder)
 export(shadeplot)
 export(traintest)

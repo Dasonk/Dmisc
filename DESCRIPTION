@@ -17,7 +17,7 @@ Collate:
     'holtwinters.R'
     'linfinder.R'
     'lsos.R'
-    'goldenRatioColors.R'
     'unfactor.R'
     'shadeplot.R'
     'traintest.R'
+    'goldenratiocolors.R'
