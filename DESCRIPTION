@@ -22,3 +22,4 @@ Collate:
     'goldenratiocolors.R'
     'qvalue.R'
     'traintest.R'
+    'holm.R'

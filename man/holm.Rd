@@ -1,0 +1,18 @@
+\name{holm}
+\alias{holm}
+\title{Holm's method}
+\usage{
+  holm(p)
+}
+\arguments{
+  \item{p}{Numeric. The p-values to adjust}
+}
+\description{
+  Transform p-values based on Holm's method
+}
+\examples{
+p <- c(.042, .001, .031, .014, .007)
+p.adjust(p, "holm")
+holm(p)
+}
+
