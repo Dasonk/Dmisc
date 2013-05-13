@@ -10,14 +10,14 @@
 #' @param alpha Numeric. The alpha blending value that is input into hsv.
 #' @export
 #' @examples
-#' cols <- goldenRatioColors(5)
+#' cols <- goldenratiocolors(5)
 #' plot(1:5, 1:5, col = cols)
 #'
 #' n <- 5
 #' xs <- seq(1, n)
 #' plot(c(1, n+1), c(0, 1), type = "n")
-#' rect(xs, 0, xs + 1, 1, col = goldenRatioColors(n))
-goldenRatioColors <- function(n, s = .5, v = 1, alpha = 1){
+#' rect(xs, 0, xs + 1, 1, col = goldenratiocolors(n))
+goldenratiocolors <- function(n, s = .5, v = 1, alpha = 1){
     GR <- 2/(1 + sqrt(5))
     hues <- (seq(0, n-1) * GR) %% 1
     cols <- hsv(hues, s, v, alpha)

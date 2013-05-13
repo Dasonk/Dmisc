@@ -1,8 +1,8 @@
-\name{goldenRatioColors}
-\alias{goldenRatioColors}
+\name{goldenratiocolors}
+\alias{goldenratiocolors}
 \title{Choose n colors using the golden ratio}
 \usage{
-  goldenRatioColors(n, s = 0.5, v = 1, alpha = 1)
+  goldenratiocolors(n, s = 0.5, v = 1, alpha = 1)
 }
 \arguments{
   \item{n}{Integer.  The number of colors you want}
@@ -20,12 +20,12 @@
   ratio.
 }
 \examples{
-cols <- goldenRatioColors(5)
+cols <- goldenratiocolors(5)
 plot(1:5, 1:5, col = cols)
 
 n <- 5
 xs <- seq(1, n)
 plot(c(1, n+1), c(0, 1), type = "n")
-rect(xs, 0, xs + 1, 1, col = goldenRatioColors(n))
+rect(xs, 0, xs + 1, 1, col = goldenratiocolors(n))
 }
 
