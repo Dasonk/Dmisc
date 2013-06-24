@@ -1,3 +1,4 @@
+export(getargs)
 export(goldenratiocolors)
 export(linfinder)
 export(shadeplot)
