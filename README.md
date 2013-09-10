@@ -3,7 +3,9 @@ Dmisc
 
 The `Dmisc` package provides functions that don't fit elsewhere that I want.  A quick overview of what you will find in the package so far:
 
+* getargs - Grabs the function arguments ignoring those set by defaults.
 * goldenratiocolors -      Choose n colors using the golden ratio
+* holm - Transform p-values based on Holm's method
 * holtwinters -             Holt winters smoothing no seasonality
 * linfinder -               Finds linear combinations
 * lsos -                   Improved list of objects
