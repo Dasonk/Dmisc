@@ -6,6 +6,7 @@
 #' 
 #' closeAllConnections() is a better alternative.
 #' 
+#' @references \url{http://stackoverflow.com/a/18730656/1003565}
 #' @export
 #' @examples
 #' sink("fakefileasdfasdfasdf.txt")

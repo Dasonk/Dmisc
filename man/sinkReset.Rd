@@ -21,4 +21,7 @@ sink("anotherfakefile.txt")
 sink.reset()
 2 + 2 # results should display in console
 }
+\references{
+  \url{http://stackoverflow.com/a/18730656/1003565}
+}
 
