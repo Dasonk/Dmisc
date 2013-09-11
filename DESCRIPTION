@@ -24,3 +24,4 @@ Collate:
     'holm.R'
     'getargs.R'
     'goldenRatioColors.R'
+    'sinkReset.R'

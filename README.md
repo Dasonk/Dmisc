@@ -9,6 +9,7 @@ The `Dmisc` package provides functions that don't fit elsewhere that I want.  A 
 * holtwinters -             Holt winters smoothing no seasonality
 * linfinder -               Finds linear combinations
 * lsos -                   Improved list of objects
+* sinkReset - Resets any connections from sink
 * shadeplot -              Shade a section of a pdf
 * traintest -              Create training/testing sets
 * unfactor -               Change factors to characters
