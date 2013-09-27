@@ -25,3 +25,4 @@ Collate:
     'getargs.R'
     'goldenRatioColors.R'
     'sinkReset.R'
+    'permutations.R'

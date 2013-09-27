@@ -1,6 +1,7 @@
 export(getargs)
 export(goldenratiocolors)
 export(linfinder)
+export(permutations)
 export(shadeplot)
 export(sinkReset)
 export(traintest)
