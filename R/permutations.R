@@ -19,6 +19,7 @@ permutations <- function(x){
     }else{
         i1 <- x[1]
         i2 <- x[-1]
+        #TODO: Test if Recall makes a difference in terms of speed.
         l <- Recall(i2)
         n <- length(i2)
         out <- list()
