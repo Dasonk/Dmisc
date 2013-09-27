@@ -19,7 +19,7 @@ permutations <- function(x){
     }else{
         i1 <- x[1]
         i2 <- x[-1]
-        l <- permutations(i2)
+        l <- Recall(i2)
         n <- length(i2)
         out <- list()
         for(i in seq(0, n)){
