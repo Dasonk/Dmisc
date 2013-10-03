@@ -26,8 +26,8 @@ update.packages()
 ## devtools is required
 library(devtools)
 install_github("Dmisc", "Dasonk")
+```
 
 ## Naming Convention
 
 This package uses camelCase as its naming convention
-```
