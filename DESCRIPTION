@@ -14,15 +14,15 @@ Description: Blarg
 License: MIT
 URL: https://github.com/Dasonk/Dmisc
 Collate:
-    'holtwinters.R'
-    'linfinder.R'
     'lsos.R'
     'unfactor.R'
-    'shadeplot.R'
     'qvalue.R'
-    'traintest.R'
     'holm.R'
-    'getargs.R'
     'goldenRatioColors.R'
     'sinkReset.R'
     'permutations.R'
+    'getArgs.R'
+    'holtWinters.R'
+    'linFinder.R'
+    'shadePlot.R'
+    'trainTest.R'

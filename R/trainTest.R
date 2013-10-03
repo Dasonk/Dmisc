@@ -13,8 +13,8 @@
 #' sets to be sorted in the same order as the original data.
 #' @export
 #' @examples
-#' traintest(mtcars)
-traintest <- function(dat, p.train = .7, sort = FALSE){
+#' trainTest(mtcars)
+trainTest <- function(dat, p.train = .7, sort = FALSE){
     
     stopifnot(0 < p.train, p.train < 1, nrow(dat) > 1)
     

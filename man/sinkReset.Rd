@@ -18,7 +18,7 @@ sink("fakefileasdfasdfasdf.txt")
 2 + 2 # this will get sent to fakefileasdfasdfasdf.txt
 sink("anotherfakefile.txt")
 3 + 3 # sent to anoterfakefile.txt
-sink.reset()
+sinkReset()
 2 + 2 # results should display in console
 }
 \references{

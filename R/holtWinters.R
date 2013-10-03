@@ -2,8 +2,10 @@
 #' 
 #' Holt winters smoothing with no seasonality
 #' 
-#' 
-holtwinters <- function(y, alpha = .5, beta = .5){
+#' @param y Vector. The data to smooth.
+#' @param alpha Numeric.  A smoothing parameter
+#' @param beta Numeric. A smoothing parameter
+holtWinters <- function(y, alpha = .5, beta = .5){
     n <- length(y)
     yhat <- numeric(n)
     yhat[1:2] <- NA

@@ -5,11 +5,12 @@
 #' dependent columns
 #' 
 #' @param mat An input matrix
+#' @param prefix Character string.  What to prefer the output columns with.
 #' @export
 #' @examples
 #' mat <- matrix(c(1,1,0,1,0,1,1,0,0,1,1,0,1,1,0,1,0,1,0,1), byrow=TRUE, ncol=5, nrow=4)
-#' linfinder(mat)
-linfinder <- function(mat, prefix = "Column_"){
+#' linFinder(mat)
+linFinder <- function(mat, prefix = "Column_"){
     # If the matrix is full rank then we're done
     if(qr(mat)$rank == ncol(mat)){
         print("Matrix is of full rank")

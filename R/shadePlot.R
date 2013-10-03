@@ -21,7 +21,7 @@
 #'   in the parameter list (assuming you used dnorm as your 'func').
 #'   
 #' @export
-shadeplot <- function(func = dnorm, 
+shadePlot <- function(func = dnorm, 
                       xlim = c(-3,3), 
                       ylim = NULL, 
                       shadelim = c(0, 1),
