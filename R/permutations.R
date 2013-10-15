@@ -11,20 +11,19 @@
 #' @export
 #' @examples
 #' permutations(1:3)
-#' permuations(c("a", "b", "c"))
+#' permutations(c("a", "b", "c"))
 #' permutations(c("raptors", "are", "horrible"))
 permutations <- function(x){
     if(length(x) == 1){
         return(list(x))
     }else{
-        i1 <- x[1]
-        i2 <- x[-1]
-        #TODO: Test if Recall makes a difference in terms of speed.
-        l <- Recall(i2)
-        n <- length(i2)
+        firstItem <- x[1]
+        rest <- x[-1]
+        l <- Recall(rest)
+        n <- length(rest)
         out <- list()
         for(i in seq(0, n)){
-            tmp <- lapply(l, append, values = i1, after = i)
+            tmp <- lapply(l, append, values = firstItem, after = i)
             out <- append(out, tmp)
         }
         return(out)
