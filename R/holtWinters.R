@@ -30,7 +30,7 @@ hwoptim <- function(y){
     n <- length(y)
     id <- seq(3, n)
     ll <- function(par){
-        j <- holtwinters(y, par[1], par[2])
+        j <- holtWinters(y, par[1], par[2])
         sum( (j[id, 2] - j[id,1])^2 )
     }
     
