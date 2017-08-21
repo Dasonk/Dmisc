@@ -11,6 +11,7 @@
 #' @param head logical. Use head on the output?
 #' @param n numeric. Number of objects to display is head is TRUE
 #' @author Dirk Eddelbuettel, Tony Breyal
+#' @export
 #' @examples
 #' lsos()
 #' \dontrun{

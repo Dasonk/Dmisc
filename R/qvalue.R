@@ -5,6 +5,7 @@
 #' @param p Numeric. The p-values to adjust
 #' @param m Numeric. The estimated number of true nulls
 #' 
+#' @export
 #' @examples
 #' pval <- rbeta(100, 1, 3)
 #' qvalue(pval)

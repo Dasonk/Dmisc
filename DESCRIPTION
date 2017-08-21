@@ -13,16 +13,4 @@ Depends:
 Description: Blarg
 License: MIT
 URL: https://github.com/Dasonk/Dmisc
-Collate:
-    'lsos.R'
-    'unfactor.R'
-    'qvalue.R'
-    'holm.R'
-    'goldenRatioColors.R'
-    'sinkReset.R'
-    'permutations.R'
-    'getArgs.R'
-    'holtWinters.R'
-    'linFinder.R'
-    'shadePlot.R'
-    'trainTest.R'
+RoxygenNote: 6.0.1

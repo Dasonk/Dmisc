@@ -3,6 +3,7 @@
 #' Transform p-values based on Holm's method
 #' 
 #' @param p Numeric. The p-values to adjust
+#' @export
 #' @examples
 #' p <- c(.042, .001, .031, .014, .007)
 #' p.adjust(p, "holm")

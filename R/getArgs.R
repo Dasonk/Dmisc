@@ -6,6 +6,7 @@
 #' @export
 #' @references \url{http://stackoverflow.com/a/17257053/1003565}
 #' @author Hong Ooi (from StackOverflow)
+#' @export
 #' @examples
 #' test <- function(x=1, y=2, z=3){getArgs()}
 getArgs <- function(){
